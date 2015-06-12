@@ -79,9 +79,6 @@ h2 {
   text-align: center;
 }
 
-#section1 h1 , #section1 p {
-  display:none;
-}
 
 #section2 .intro{
  left: -60%;
@@ -101,9 +98,7 @@ h2 {
 	height:auto;
 	border:5px solid #fff;
 	border-radius:50%;
-	margin-bottom:0.5em;
-	bottom: -50%;
-	position:relative;
+	margin-bottom:0.5;
 }
 
 #icons {

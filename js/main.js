@@ -10,7 +10,7 @@
 
 			 afterLoad: function(anchorLink, index){
 			        //section1
-				if(index == 1){
+				/**if(index == 1){
 					$('#section1').find('#photo').animate({
 						bottom:'0'
 					},500,'linear',function(){
@@ -18,7 +18,7 @@
 							$('#section1').find('p').fadeIn(600);
 						});
 					});
-				}
+				}**/
 					
 
 			    	//section 2
