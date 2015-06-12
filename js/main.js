@@ -12,7 +12,7 @@
 			        //section1
 				if(index == 1){
 					$('#section1').find('#photo').animate({
-						width:'230px'
+						bottom:'0'
 					},500,'linear',function(){
 						$('#section1').find('h1').fadeIn(700,function(){
 							$('#section1').find('p').fadeIn(600);
