@@ -38,6 +38,10 @@ h2 {
 	.col-3{
 		width:100%;
 	}
+
+	#pp-nav {
+         	display: none
+    }
 }
 
 #menu {
