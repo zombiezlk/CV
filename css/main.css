@@ -1,0 +1,136 @@
+body {
+	font-family:Microsoft YaHei
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+}
+ul {
+	list-style:none;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0 0 0.5em 0;
+  margin-top: 0;
+}
+
+h2 {
+	font-size:1em;
+}
+
+.row {
+	position:relative;
+	overflow:auto;
+}
+
+.col-3 {
+    width: 33.33333%;
+    float: left
+}
+
+.section a:hover {
+	color:blue;
+}
+
+@media screen and (max-width: 760px){
+	.col-3{
+		width:100%;
+	}
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2em;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  display: inline-block;
+  margin: 10px;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+}
+
+#menu li.active {
+  background: #666;
+  color: #fff;
+}
+
+#menu li a, #menu li.active a {
+  padding: 9px 18px;
+  display: block;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+.section {
+  text-align: center;
+}
+
+#section1 h1 , #section1 p {
+  display:none;
+}
+
+#section2 .intro{
+ left: -60%;
+ position: relative;
+}
+
+#section2 .row{
+  display: none;
+}
+#section3 .intro{
+  left: 60%;
+  position: relative;
+}
+
+#photo {
+	width:0;
+	height:auto;
+	border:5px solid #fff;
+	border-radius:50%;
+	margin-bottom:0.5em;
+}
+
+#icons {
+	height:40px;
+	margin-bottom:10px;
+}
+
+.social-icon{
+	width:40px;
+	height:40px;
+	margin:0 5px;
+	border-radius:20%;
+	display:inline-block;
+	background-color:#fff;
+	background-image:url("../img/social.png");
+	transition:transform 1s;
+}
+
+.social-icon:hover{
+	background-color:#FDDADA;
+	transform:rotate(-60deg);
+}
+
+.github{
+	background-position: -160px 40px;
+	transform: rotate(-30deg);
+}
+
+.weibo{
+	background-position: -160px 0;
+	transform: rotate(30deg);
+}
